@@ -1,0 +1,70 @@
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+pip-wheel-metadata/
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# --- Logs & Reports ---
+*.log
+logs/
+
+# --- Data (large/generated files) ---
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.db
+data/*.sqlite
+!data/.gitkeep
+
+# --- Model artifacts ---
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.onnx
+!models/.gitkeep
+
+# --- Memory / Cache ---
+memory/*.json
+memory/*.db
+!memory/.gitkeep
+
+# --- Misc ---
+*.bak
+*.tmp
+*.temp
+.agents
