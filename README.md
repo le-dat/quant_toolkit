@@ -279,9 +279,3 @@ This open-source project is licensed under the [**MIT License**](LICENSE).
 Infrastructure architecture inspired and adapted from [**Vibe Trading**](https://github.com/HKUDS/Vibe-Trading).
 
 ---
-
-## 👤 Author
-
-- **Author:** PVinh
-- **Email:** ppvinh1513@gmail.com
-- **Project:** `pseud` (Quantitative OHLCV Anomaly Researcher)

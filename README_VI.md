@@ -394,16 +394,3 @@ Một phần mã nguồn cơ sở hạ tầng (Agent loop, Swarm runtime, Provid
 Config system) được tham khảo và điều chỉnh từ dự án Vibe Trading.
 
 ---
-
-## 👤 Tác giả (Author)
-
-- **Tác giả:** PVinh
-- **Email:** ppvinh1513@gmail.com
-- **Dự án:** `pseud` (Quantitative OHLCV Anomaly Researcher)
-
-> [!NOTE]
-> **Kế hoạch phát triển:** Khi có thời gian, tác giả sẽ tiếp tục phát triển và mở rộng
-> bộ quét dị biệt (Anomaly Scanner) để tăng tính chính xác và đúng đắn của các tín hiệu
-> thống kê — bao gồm bổ sung thêm các bộ lọc nhiễu nâng cao, cải thiện ngưỡng Z-Score
-> thích ứng theo chế độ thị trường, và tích hợp thêm các phương pháp thống kê phi tham số
-> (non-parametric) nhằm giảm thiểu tỷ lệ dương tính giả (false positive).
