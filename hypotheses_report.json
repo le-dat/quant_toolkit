@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "anomalies_detected": 10,
+  "hypotheses_generated": 1,
+  "swarm_enabled": true,
+  "hypotheses": [
+    {
+      "hypothesis_id": "hyp_A3_BTCUSDT_voldecouple_186369",
+      "title": "BTCUSDT Volume Price Decoupling Price Reversion",
+      "symbol": "BTCUSDT",
+      "stat": "volume_price_decoupling",
+      "effect_size": 78.71,
+      "predicted_sign": -1,
+      "target_regime": "HIGH_VOLATILITY",
+      "target_horizon": "1h",
+      "next_action": "GENERATE_HYPOTHESIS",
+      "action_reasoning": "Default fallback hypothesis synthesis for extreme anomaly.",
+      "hypothesis_text": "Extreme volume_price_decoupling anomaly (z=78.71) on BTCUSDT indicates temporary price overextension leading to short-horizon mean reversion.",
+      "narrative": "Abnormal price volatility and volume surge indicate temporary price overextension. As extreme buying/selling momentum cools down, price action systematically mean-reverts back to historical moving averages.",
+      "mechanism_columns": [
+        "close",
+        "volume"
+      ],
+      "swarm_review": {
+        "consensus_verdict": "APPROVED",
+        "advocate_analysis": "Hành vi giá và khối lượng phù hợp với quy luật đảo chiều.",
+        "critic_analysis": "Cần chú ý bẫy giá giả trong xu hướng mạnh.",
+        "risk_verdict": "Đạt thẩm định Swarm."
+      }
+    }
+  ]
+}
